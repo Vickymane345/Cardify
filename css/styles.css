@@ -1,0 +1,63 @@
+
+.hero{
+    padding: 80px 5% 60px 10%;
+
+}
+/* 
+.hero-body {
+    margin-top: 1.5em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+.logo{
+    
+  font-family: "Zen Tokyo Zoo", cursive;
+  font-weight: 500;
+  font-style: normal;
+  text-decoration: none;
+  color: white;
+}
+
+h1{
+    font-family: Poppins, sans-serif;
+        
+   
+      
+    font-weight: 400;
+    
+    
+}
+
+.select {
+  display: grid;
+}
+.select {
+  grid-template-areas: "select";
+}
+
+select,
+.select:after {
+  grid-area: select;
+}
+.select {
+  align-items: center;
+}
+
+.select:after {
+  justify-self: end;
+}
+
+.okay{
+    position: relative;
+    animation: mymove 2s infinite;
+  
+}
+
+@keyframes mymove {
+  from {left: 2px;}
+  to {left: 20px;}
+}
+
+
+
